@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor Job Form</title>
+</head>
+<body>
+     <form method="get">
+        <h1 align="center">Editor Job Form</h1>
+        <div>
+            <label for="user">Username</label>
+            <input type="text" id="user" placeholder="user" required>
+        </div>
+        <div>
+            <label for="em">Email</label>
+            <input type="email" id="em" placeholder="myemail@gmail.com" required>
+        </div>
+        <div>
+            <label for="ph">Phone Number</label>
+            <input type="tel" id="ph" required>
+        </div>
+        <div>
+            <label for="age">Age</label>
+            <input type="number" required min="14" max="25">
+        </div>
+        <div>
+            <label for="yp">Your Project</label>
+            <input type="file" required>
+        </div>
+        <div>
+            <label for="cnt">Your Country</label>
+            <input id="cnt" list="countryList" name="cnt">
+            <datalist id="countryList"> <optgroup label="المغرب العربي">
+                    <option value="المغرب">المغرب</option>
+                    <option value="الجزائر">الجزائر</option>
+                    <option value="تونس">تونس</option>
+                    <option value="ليبيا">ليبيا</option>
+                    <option value="موريتانيا">موريتانيا</option>
+                    <option value="مصر">مصر</option>
+                    <option value="السودان">السودان</option>
+                    <option value="جيبوتي">جيبوتي</option>
+                    <option value="الصومال">الصومال</option>
+                    <option value="جزر القمر">جزر القمر</option>
+                </optgroup>
+                <optgroup label="دول الخليج">
+                    <option value="الكويت">الكويت</option>
+                    <option value="البحرين">البحرين</option>
+                    <option value="قطر">قطر</option>
+                    <option value="الإمارات العربية المتحدة">الإمارات العربية المتحدة</option>
+                    <option value="سلطنة عمان">سلطنة عمان</option>
+                    <option value="المملكة العربية السعودية">المملكة العربية السعودية</option>
+                    <option value="اليمن">اليمن</option>
+                </optgroup>
+                <optgroup label="الشام العربي">
+                    <option value="فلسطين">فلسطين</option>
+                    <option value="الأردن">الأردن</option>
+                    <option value="سوريا">سوريا</option>
+                    <option value="لبنان">لبنان</option>
+                </optgroup>
+            </datalist>
+        </div>
+        <input type="submit">
+        <input type="reset">
+     </form>
+</body>
+</html>
