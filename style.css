@@ -1,0 +1,40 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+  background-color: beige;
+  text-transform: capitalize;
+}
+.btn {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 7px;
+  color: white;
+  background-color: burlywood;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+}
+label{
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+div {
+  display: flex; 
+  flex-direction: column; 
+  align-items: stretch; 
+  background-color: burlywood;
+  padding: 7px;
+  max-width: 300px;
+  border-radius: 7px;
+  margin: 10px auto;
+}
+input{
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+}
+div :placeholder-shown{
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
